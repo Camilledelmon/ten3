@@ -1,0 +1,56 @@
+#navlogo {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: 1px;
+  border: 0px;
+  background: #4974a0;
+  width: 30%;
+}
+.sidnav {
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #d2e7ec;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.menucontent {
+  width: 80%;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content_title {
+  margin: 0%;
+  width: 100%;
+  text-align: left;
+  font-family: Cambria;
+  font-size: 20px;
+  color: #0a56a2;
+}
+.content_section {
+  margin: 0%;
+  width: 90%;
+  text-align: left;
+  padding-left: 10%;
+}
+.content_block {
+  padding-top: 0%;
+  margin-top: 5%;
+}
+.content_txt {
+  color: #0a56a2;
+  font-family: Cambria;
+  font-size: 15px;
+}
