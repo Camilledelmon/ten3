@@ -1,7 +1,8 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { ref } from 'vue';
-
+import { defineProps, reactive } from 'vue';
 const count = ref(0);
+defineProps<{ msg: String }>();
 </script>
 
 <template>
