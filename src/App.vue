@@ -5,12 +5,12 @@ import Menu from './components/Menu.vue';
 
 <template>
   <Menu />
-  <div classname="mycontent">
+  <div className="mycontent">
     <HelloWorld msg="Vite + Vue" />
   </div>
 </template>
 
-<style scoped>
+<style scoped> 
 .logo {
   height: 6em;
   will-change: filter;
