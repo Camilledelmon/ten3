@@ -1,13 +1,13 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import HelloWorld from './components/HelloWorld.vue';
 import Menu from './components/Menu.vue';
-import Header from './components/MyHeader.vue';
+import MyHeader from './components/MyHeader.vue';
 </script>
 
 <template>
   <Menu />
   <div className="mycontent">
-    <Header/>
+    <MyHeader/>
     <HelloWorld msg="Vite + Vue" />
   </div>
 </template>
