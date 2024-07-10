@@ -57,6 +57,16 @@ button:focus-visible {
 .card {
   padding: 2em;
 }
+.mycontent{
+  position: fixed;
+  height: 100%;
+  top: 0;
+  z-index: 10;
+  margin-left: 200px; 
+  padding: 1px 16px;
+  text-align: center;
+  overflow: auto;
+}
 
 #app {
   position: fixed;
@@ -65,7 +75,6 @@ button:focus-visible {
   left: 0;
   top: 0;
   z-index: 10;
-  max-width: 1280px;
   margin: 0; 
   text-align: center;
   overflow: auto;
