@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
 import Menu from './components/Menu.vue';
+import Header from './components/';
 </script>
 
 <template>
+  <Header/>
   <Menu />
   <div className="mycontent">
     <HelloWorld msg="Vite + Vue" />
