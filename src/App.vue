@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
 import Menu from './components/Menu.vue';
-import Header from './components/Header.vue';
+import Header from './components/MyHeader.vue';
 </script>
 
 <template>
