@@ -10,7 +10,7 @@ import Menu from './components/Menu.vue';
   </div>
 </template>
 
-<style scoped>
+<style scoped> 
 .logo {
   height: 6em;
   will-change: filter;
