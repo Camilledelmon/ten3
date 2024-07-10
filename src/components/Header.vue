@@ -3,5 +3,7 @@
 </script>
 
 <template>
-<div id="myheader"></div>
+<div id="myheader">
+
+</div>
 </template>
