@@ -35,7 +35,7 @@ hr {
   width: 100%;
   text-align: left;
   font-family: Cambria;
-  font-size: 20px;
+  font-size: 18px;
   color: #0a56a2;
 }
 .content_section {
@@ -46,10 +46,10 @@ hr {
 }
 .content_block {
   padding-top: 0%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 .content_txt {
   color: #0a56a2;
   font-family: Cambria;
-  font-size: 15px;
+  font-size: 14px;
 }
