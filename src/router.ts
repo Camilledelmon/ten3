@@ -10,12 +10,12 @@ export default createRouter({
     },
     {
       path: '/histoire',
-      component: () => import('./routes/Histoire.vue'),
+      component: () => import('./routes/Association/Histoire.vue'),
     },
     {
       path: '/presentation',
       
-      component: () => import('./routes/Presentation.vue'),
+      component: () => import('./routes/Association/Presentation.vue'),
     },
   ],
 })
