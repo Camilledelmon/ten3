@@ -1,12 +1,11 @@
-<script setup lang="tsx">
+<script setup lang="ts">
 import { ref } from 'vue';
-import { defineProps, reactive } from 'vue';
 const count = ref(0);
-defineProps<{ msg: String }>();
+const nav = "Accueil";
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <p id="">{{ nav }}</p>
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>

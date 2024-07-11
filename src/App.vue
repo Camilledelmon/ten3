@@ -1,14 +1,14 @@
-<script lang="ts" setup>
-import HelloWorld from './components/HelloWorld.vue';
+<script lang="tsx" setup>
 import Menu from './components/Menu.vue';
 import MyHeader from './components/MyHeader.vue';
+
 </script>
 
 <template>
   <Menu />
   <div className="mycontent">
     <MyHeader/>
-    <HelloWorld msg="Vite + Vue" />
+    <router-view />
   </div>
 </template>
 

@@ -1,5 +1,4 @@
 <script  lang="tsx" setup>
-
 </script>
 
 <template>
@@ -7,14 +6,19 @@
 <div><img id="navlogo"  src="/src/images/logo.png" alt=""></img></div>
 <div className="sidnav_separator" ><hr/></div>
 <div className = "menucontent">
-    <div id="Accueil" className="content_block"><p className="content_title"> <a className="content_title" href="/">Accueil </a></p></div>
+    <div id="Accueil" className="content_block">
+      <div className="content_title">
+      <router-link to="/" >Accueil </router-link></div></div>
     <div id="Association" className="content_block"><p className="content_title">L&#39association</p>
-      <p  className="content_section" ><a className="content_txt" href="game">Présentation</a></p>
-      <p className="content_section"><a className="content_txt">Histoire du club</a></p>
-      <p className="content_section"><a className="content_txt">Membres</a></p>
+      <p  className="content_section" >
+        <router-link to="/presentation">Présentation</router-link></p>
+      <p className="content_section">
+        <router-link to="/histoire" >Histoire du club</router-link></p>
+      <p className="content_section">
+        <router-link to="/membres" >Membres</router-link></p>
     </div>
     <div id="Club" className="content_block"><p className="content_title">Le Club</p>
-      <p  className="content_section" ><a className="content_txt" href="game">Règlement</a></p>
+      <p  className="content_section" ><a className="content_txt" >Règlement</a></p>
       <p className="content_section"><a className="content_txt">Installations</a></p>
       <p className="content_section"><a className="content_txt">Inscriptions & tarifs</a></p>
       <p className="content_section"><a className="content_txt">Enseignements</a></p>
