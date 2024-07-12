@@ -6,15 +6,22 @@ export default createRouter({
   routes: [
     {
       path: '/',
+      redirect: '/accueil',
+    },
+    {
+      path: '/accueil',
       component: Home,
     },
     {
-      path: '/histoire',
+      path:"/association",
+      redirect: '/association/presentation',
+    },
+    {
+      path: '/association/histoire',
       component: () => import('./routes/Association/Histoire.vue'),
     },
     {
-      path: '/presentation',
-      
+      path: '/association/presentation',
       component: () => import('./routes/Association/Presentation.vue'),
     },
   ],

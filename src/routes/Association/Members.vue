@@ -1,7 +1,5 @@
 <script setup lang="tsx">
-
 </script>
 <template>
-
-    <h1>HISTOIRE !</h1>
+    <h1>Membres</h1>
 </template>

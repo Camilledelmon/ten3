@@ -1,13 +1,17 @@
-<script lang="tsx" setup>
+<script setup lang="ts">
 import Menu from './components/Menu.vue';
 import MyHeader from './components/MyHeader.vue';
+import { defineComponent} from "vue";
+
 
 </script>
 
 <template>
-  <Menu />
+  <Menu/>
   <div className="mycontent">
     <MyHeader/>
+    
+    <b-breadcrumb :items=items></b-breadcrumb>
     <router-view />
   </div>
 </template>
